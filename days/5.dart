@@ -15,7 +15,6 @@ day5() {
     var line = day5Data[i];
     //populate each stack with our data
     for (int j = 1; j < 9 * 4; j += 4) {
-      // print(line[j]);
 //gr9 maffs
       if (line[j] != " ") {
         allStacks[((j - 1) / 4).round()].add(line[j]);
@@ -64,7 +63,6 @@ day5() {
   for (var stack in allStacks) {
     print(stack.last);
   }
-  // print(allStacks);
 }
 
 class Stack<E> {

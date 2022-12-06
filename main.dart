@@ -1,5 +1,5 @@
 import 'days/all_days.dart';
 
 void main() {
-  day5();
+  day6();
 }
